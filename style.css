@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    color: white;
+    width: 400px;
+}
+h1{
+    margin-bottom: 10px;
+}
+
+.form{
+    width: 430px;
+}
+
+.blue{
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 0 5px 16px -3px hsl(248, 32%, 49%);
+}
+
+p span{
+    font-weight: 400;
+}
+form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+input{
+    padding: 10px 0 10px 10px;
+    width: 96%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border: thin solid black;
+    outline: none;
+    border-radius: 4px;
+}
+button{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 10px 0 10px 10px;
+    z-index: 2;
+    box-shadow: 0 5px 16px -3px hsl(154, 59%, 51%) ;
+}
+.p{
+    margin-top: 20px;
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+}
+
+.p span{
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+
+@media screen and (max-width:800px){
+    .content{
+        color: white;
+        width: 300px;
+    }
+    .form{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .main{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 30px;
+
+    }
+    .content{
+        color: white;
+        margin: 0 auto;
+        padding: 0 auto;
+        width: 90%;
+    }
+    .form{
+        margin: 50px auto;
+        width: 80%;
+    }
+}
