@@ -88,8 +88,10 @@ button{
     .content{
         color: white;
         width: 300px;
+        margin: 0px 20px;
     }
     .form{
+        margin: 0px 20px;
         width: 400px;
     }
 }
