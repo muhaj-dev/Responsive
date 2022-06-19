@@ -38,7 +38,8 @@ h1{
     text-align: center;
     font-weight: bold;
     background-color: hsl(248, 32%, 49%);
-    box-shadow: 0 5px 16px -3px hsl(248, 32%, 49%);
+    box-shadow: 3px 6px rgba(80, 113, 166, 0.5);
+
 }
 
 p span{
@@ -69,7 +70,7 @@ button{
     font-weight: 700;
     padding: 10px 0 10px 10px;
     z-index: 2;
-    box-shadow: 0 5px 16px -3px hsl(154, 59%, 51%) ;
+    box-shadow: 3px 5px rgba(80, 166, 120, 0.5);
 }
 .p{
     margin-top: 20px;
@@ -98,9 +99,19 @@ button{
         display: block;
         text-align: center;
         margin: 0 auto;
-        padding-top: 30px;
+        padding-top: 30px; background-repeat: no-repeat;
+        background-image: url('images/bg-intro-mobile.png');
 
     }
+    /* .main{ */
+        /* height: 100vh; */
+        /* background-repeat: no-repeat; */
+        /* background-image: url('images/bg-intro-desktop.png'); */
+        /* background-color: hsl(0, 100%, 74%); */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+    /* } */
     .content{
         color: white;
         margin: 0 auto;
@@ -110,5 +121,8 @@ button{
     .form{
         margin: 50px auto;
         width: 80%;
+    }
+    .blue{
+        font-size: 18px;
     }
 }
