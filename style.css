@@ -96,7 +96,7 @@ button{
     }
 }
 
-@media screen and (max-width:445px){
+@media screen and (max-width:375px){
     .main{
         display: block;
         text-align: center;
