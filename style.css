@@ -57,10 +57,9 @@ input{
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: 700;
-    border: thin solid black;
+    border: 1px solid black;
     border-radius: 4px;
 }
-
 input:focus{
     border: none;
 }
@@ -92,9 +91,6 @@ input:required{
     outline: 2px solid transparent;
 }
 
-/* input[type=email]:invalid:focus::-webkit-input-placeholder{
-    color: hsl(0, 100%, 74%);
-} */
 button{
     width: 100%;
     border: none;
@@ -133,8 +129,10 @@ button{
 @media screen and (max-width:445px){
     .main{
         display: block;
+        height: auto;
         text-align: center;
         margin: 0 auto;
+        padding-bottom: 50px;
         padding-top: 30px; 
         background-repeat: no-repeat;
         background-image: url('images/bg-intro-mobile.png');
@@ -151,7 +149,7 @@ button{
 
 
     .form{
-        margin: 50px auto;
+        margin: 0px auto;
         width: 80%;
     }
     .blue{
