@@ -61,6 +61,10 @@ input{
     border-radius: 4px;
 }
 
+input:focus{
+    border: none;
+}
+
 input:invalid:focus {
     background: url("images/icon-error.svg") no-repeat 96% center white;
     outline: 2px solid hsl(0, 100%, 74%);
