@@ -74,7 +74,7 @@ input:invalid:focus {
 input:required:focus ~ .error-message{
     display: block;
     color: hsl(0, 100%, 74%);
-    text-align: start;
+    text-align: end;
     font-size: 12px;
     font-style: italic;
 }
